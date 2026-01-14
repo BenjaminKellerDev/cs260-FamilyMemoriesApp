@@ -30,8 +30,8 @@ A focus on minimal login to help with less technical users. Under each story use
 ```mermaid
 sequenceDiagram
     actor You
+    participant Website
     actor Your_Grandma
-    actor Website
     You->>Website: You add a story
     Your_Grandma->>Website: She adds a comment
     Website->>You: Your client gets notified of grandma's comment via WebSocket
