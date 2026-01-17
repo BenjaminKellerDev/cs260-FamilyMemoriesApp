@@ -1,6 +1,8 @@
-# Family Memories
+# Memory Box
 
-Family Memories is a web-app for collecting, organizing and presenting family memories in a fashion suitable for all ages. Initial version was built for my university web development class and features a text-only approach, hopefully i'll have time to extend this into a full self-hosted app with more types of media and timeline.
+Memory Box is a web-app for collecting, organizing and presenting family memories in a fashion suitable for all ages. Initial version was built for my university web development class and features a text-only approach, hopefully i'll have time to extend this into a full self-hosted app with more types of media and timeline.
+
+[memorybox.click](memorybox.click)
 
 > [!NOTE]
 > This project uses a weak-copyleft license to guarantee openness, please read the license before contributing 
