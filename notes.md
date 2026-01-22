@@ -76,6 +76,7 @@ I also used SVG to make the icon and logo for the app. This turned out to be a p
   <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="72" font-family="Arial" fill="white">C</text>
 </svg>
 ```
+I like these colors https://9artprints.com/cdn/shop/files/after-josef-albers-grove-homage-to-the-square-premium-giclee-print-mid-century-modern-art-print-in-green-white-available-framed-1x1-923422.jpg?v=1764295174&width=3000
 
 ## React Part 1: Routing
 
