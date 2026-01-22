@@ -1,6 +1,8 @@
-# Family Memories
+# Memory Box
 
-Family Memories is a web-app for collecting, organizing and presenting family memories in a fashion suitable for all ages. Initial version was built for my university web development class and features a text-only approach, hopefully i'll have time to extend this into a full self-hosted app with more types of media and timeline.
+Memory Box is a web-app for collecting, organizing and presenting family memories in a fashion suitable for all ages. Initial version was built for my university web development class and features a text-only approach, hopefully i'll have time to extend this into a full self-hosted app with more types of media and timeline.
+
+[memorybox.click](memorybox.click)
 
 > [!NOTE]
 > This project uses a weak-copyleft license to guarantee openness, please read the license before contributing 
@@ -58,7 +60,7 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Server deployed and accessible with custom domain name** - [My server link](https://yourdomainnamehere.click).
+- [x] **Server deployed and accessible with custom domain name** - [My server link](https://memorybox.click).
 
 ## 🚀 HTML deliverable
 
