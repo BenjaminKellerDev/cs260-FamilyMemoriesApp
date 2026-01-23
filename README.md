@@ -52,7 +52,7 @@ I am going to use the required technologies in the following ways.
 - **HTML** - Create the structure of the webpage and section where the scrollable section will be 
 - **CSS** - Style it in an industry standard way so that it will be familiar to all use
 - **React** - Provides interactivity, including login, posting commenting, adding tags and a trigger to load more stories
-- **Service** - Backend service with endpoints for the functions described in the react section
+- **Service** - Backend service with endpoints for the functions described in the react section, includes a 3rd party api to retrieve art, for inspiration 
 - **DB/Login** - Stores login info, user-sessions, comments, and stories.
 - **WebSocket** - Updates connected users with new stories and comments
 
@@ -66,14 +66,14 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - I did not complete this part of the deliverable.
 - [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
+- [x] **Links** - every site is accessible from the home page, once logged in, via a nav bar
 - [ ] **Text** - I did not complete this part of the deliverable.
 - [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
 - [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
+- [x] **Login placeholder** - you can login or create an account on the home page
+- [x] **DB data placeholder** - I did not complete this part of the deliverable.
 - [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
 
 ## 🚀 CSS deliverable

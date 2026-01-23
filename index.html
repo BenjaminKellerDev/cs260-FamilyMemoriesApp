@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="eng">
 
-<head>
-    <meta charset="UTF-8" />
-    <title>Memory Box</title>
-    <link rel="icon" href="/favicon.ico" />
-    <link rel="mask-icon" href="/favicon.ico" />
-    <!-- no nav needed -->
-    <hr>
-</head>
-
 <body>
-    <h1>Welcome to your digital <i>Memory Box</i></h1>
-    <div>
-        <form action="stories.html">
-            <div>
-                <label for="emailBox">Email:</label>
-                <input type="email" id="emailBox" name="loginEmail" />
-            </div>
-            <div>
-                <label for="passwordBox">Password:</label>
-                <input type="password" id="passwordBox" name="loginPassword" />
-            </div>
-            <div>
-                <button type="submit">Submit</button>
-                <button type="submit">Create</button>
-            </div>
-        </form>
-    </div>
-    <i style="color:blueviolet">Authentication part</i>
-</body>
 
-<footer>
-    <hr>
-    <a href="https://github.com/BenjaminKellerDev/cs260-FamilyMemoryBox">Source code on GitHub</a>
-    App written by Benjamin Keller
-</footer>
+    <header>
+        <meta charset="UTF-8" />
+        <title>Memory Box</title>
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="mask-icon" href="/favicon.ico" />
+        <!-- no nav needed -->
+        <hr>
+    </header>
+
+    <main>
+        <h1>Welcome to your digital <i>Memory Box</i></h1>
+        <div>
+            <form action="stories.html">
+                <div>
+                    <label for="nameBox">Name:</label>
+                    <input type="text" id="nameBox" name="loginName" />
+                </div>
+                <div>
+                    <label for="emailBox">Email:</label>
+                    <input type="email" id="emailBox" name="loginEmail" />
+                </div>
+                <div>
+                    <label for="passwordBox">Password:</label>
+                    <input type="password" id="passwordBox" name="loginPassword" />
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                    <button type="submit">Create</button>
+                </div>
+            </form>
+        </div>
+        <i style="color:blueviolet">Authentication part</i>
+
+
+        <i style="color:blueviolet">3rd party art api from the Art Institute of Chicago</i>
+        <h3>Inspirational art for your enjoyment:</h3>
+        <a href="https://www.artic.edu/artworks/20684/paris-street-rainy-day">
+            <img src="https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/1686,/0/default.jpg"
+                alt="painting" width="400">
+        </a>
+    </main>
+
+    <footer>
+        <hr>
+        <a href=" https://github.com/BenjaminKellerDev/cs260-FamilyMemoryBox">Source code on GitHub</a>
+        App written by Benjamin Keller
+    </footer>
+</body>
 
 </html>

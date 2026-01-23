@@ -1,73 +1,79 @@
 <!DOCTYPE html>
 <html lang="eng">
 
-<head>
-    <meta charset="UTF-8" />
-    <title>Memory Box</title>
-    <link rel="icon" href="favicon.ico" />
-    <div>
-        <nav>
-            Navigation
-            <div>
-                <a href="/stories.html">Story Feed</a>
-                <a href="/tags.html">Manage Tags</a>
-                <a href="/index.html">Logout</a>
-            </div>
-        </nav>
-    </div>
-    <hr>
-</head>
-
 <body>
-    <button>New Posts! refresh now</button>
-    <p>WebSocket tech on this page for comments and new posts</p>
-    <form action="drafting.html">
-        <button type="submit">New Story</button> <i style="color:blueviolet">Websocket will notify the user when this
-            button becomes visible</i>
-    </form>
-    <div>
-        <hr>
-        <h2>That one time I went to that one place</h2>
-        <h5>By Grandma</h5>
-        <aside>Tags: <span><u>Grandma</u></span> <span><u>Europe</u></span> <span><u>Family-Friend Frank</u></span>
-        </aside>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis unde ipsa repellat iure vel ipsum
-            nostrum molestiae distinctio facilis adipisci necessitatibus quasi tempora eveniet, quisquam saepe id?
-            Natus, illum excepturi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis unde ipsa
-            repellat iure vel ipsum
-            nostrum molestiae distinctio facilis adipisci necessitatibus quasi tempora eveniet, quisquam saepe id?
-            Natus, illum excepturi. </p>
-        <hr>
-        <section>
-            <h3>Comments</h3>
-            <div>
-                <div>
-                    <i>Dad:</i>
-                    <p>I remember that!!</p>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <i>Grandson:</i>
-                    <p>Wow! So cool! Is that where the turboencabulator you have in the garage came from?</p>
-                </div>
-            </div>
-            <div>
-                <form>
-                    <label for="addComment">Add a comment:</label>
-                    <input type="text" id="addComment" name="addComment">
-                    <button type="submit">Post</button>
-                </form>
-            </div>
-        </section>
-    </div>
-    <i style="color:blueviolet">Application data: username will be submitted and displayed, also all this data will be
-        stored in a database</i>
-</body>
 
-<footer>
-    <hr>
-    <a href="https://github.com/BenjaminKellerDev/cs260-FamilyMemoryBox">Source code on GitHub</a>
-</footer>
+    <header>
+        <meta charset="UTF-8" />
+        <title>Memory Box</title>
+        <link rel="icon" href="favicon.ico" />
+        <div>
+            <nav>
+                Navigation
+                <div>
+                    <a href="/stories.html">Story Feed</a>
+                    <a href="/tags.html">Manage Tags</a>
+                    <a href="/index.html">Logout</a>
+                </div>
+            </nav>
+        </div>
+        <hr>
+    </header>
+
+    <main>
+        <button>New Posts! refresh now</button>
+        <p>WebSocket tech on this page for comments and new posts</p>
+        <form action="drafting.html">
+            <button type="submit">New Story</button> <i style="color:blueviolet">Websocket will notify the user when
+                this
+                button becomes visible</i>
+        </form>
+        <div>
+            <hr>
+            <h2>That one time I went to that one place</h2>
+            <h5>By Grandma</h5>
+            <aside>Tags: <span><u>Grandma</u></span> <span><u>Europe</u></span> <span><u>Family-Friend Frank</u></span>
+            </aside>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis unde ipsa repellat iure vel ipsum
+                nostrum molestiae distinctio facilis adipisci necessitatibus quasi tempora eveniet, quisquam saepe id?
+                Natus, illum excepturi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis unde ipsa
+                repellat iure vel ipsum
+                nostrum molestiae distinctio facilis adipisci necessitatibus quasi tempora eveniet, quisquam saepe id?
+                Natus, illum excepturi. </p>
+            <hr>
+            <section>
+                <h3>Comments</h3>
+                <div>
+                    <div>
+                        <i>Dad:</i>
+                        <p>I remember that!!</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <i>Grandson:</i>
+                        <p>Wow! So cool! Is that where the turboencabulator you have in the garage came from?</p>
+                    </div>
+                </div>
+                <div>
+                    <form>
+                        <label for="addComment">Add a comment:</label>
+                        <input type="text" id="addComment" name="addComment">
+                        <button type="submit">Post</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <i style="color:blueviolet">Application data: username will be submitted and displayed, also all this data will
+            be
+            stored in a database</i>
+    </main>
+
+    <footer>
+        <hr>
+        <a href="https://github.com/BenjaminKellerDev/cs260-FamilyMemoryBox">Source code on GitHub</a>
+        App written by Benjamin Keller
+    </footer>
+</body>
 
 </html>
