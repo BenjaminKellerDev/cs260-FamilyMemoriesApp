@@ -15,26 +15,26 @@
 <body>
     <!-- no nav needed on this page -->
     <main>
-        <div id="loginBox">
+        <div id="loginBox" class="px-4 py-3">
             <h1>Welcome to your digital</h1>
             <h1> <i>Memory Box</i></h1>
             <!--<img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Birch_Tree_Drawing.jpg" width="200">-->
             <form action="stories.html">
                 <div>
-                    <label for="nameBox">Name:</label>
-                    <input type="text" id="nameBox" name="loginName" />
+                    <label for="nameBox" class="col-sm-2 col-form-label">Name:</label>
+                    <input type="text" id="nameBox" name="loginName" class="form-control" />
                 </div>
                 <div>
-                    <label for="emailBox">Email:</label>
-                    <input type="email" id="emailBox" name="loginEmail" />
+                    <label for="emailBox" class="form-label">Email:</label>
+                    <input type="email" id="emailBox" name="loginEmail" class="form-control" />
                 </div>
                 <div>
-                    <label for="passwordBox">Password:</label>
-                    <input type="password" id="passwordBox" name="loginPassword" />
+                    <label for="passwordBox" class="form-label">Password:</label>
+                    <input type="password" id="passwordBox" name="loginPassword" class="form-control" />
                 </div>
                 <div>
-                    <button type="submit" class="btn">Submit</button>
-                    <button type="submit">Create</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-secondary">Create</button>
                 </div>
             </form>
         </div>
