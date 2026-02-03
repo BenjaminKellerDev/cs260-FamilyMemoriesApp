@@ -34,8 +34,12 @@ h4 {
     margin: 20px;
 }
 
-.loginChild {
-    margin: 20px;
+.loginBox {
+    flex-grow: 4;
+}
+
+.artBox {
+    flex-grow: 1;
 }
 
 body {
@@ -48,8 +52,6 @@ body {
 header,
 footer {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 header {
@@ -58,5 +60,5 @@ header {
 
 footer {
     flex: 0 0 30px;
-    flex-grow: 1;
+    justify-content: space-between;
 }
