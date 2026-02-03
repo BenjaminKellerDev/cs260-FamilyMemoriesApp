@@ -11,11 +11,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 
-* {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    background-color: #fbf7f5;
-    box-sizing: border-box;
-}
+
 
 h1,
 h1,
@@ -39,19 +35,17 @@ h4 {
 }
 
 .artBox {
-    flex-grow: 1;
+    flex: 1 30 200px;
 }
 
-body {
+.main {
+    background-color: #fbf7f5;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-}
-
-header,
-footer {
-    display: flex;
 }
 
 header {
@@ -59,6 +53,14 @@ header {
 }
 
 footer {
-    flex: 0 0 30px;
+    flex: 0 30px;
     justify-content: space-between;
+}
+
+footer a {
+    float: right;
+}
+
+footer p {
+    float: left;
 }
