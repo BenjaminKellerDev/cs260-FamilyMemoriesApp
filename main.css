@@ -23,12 +23,11 @@ h3 {
     font-family: Calistoga;
 }
 
-#loginBox {
-    border: solid #c4c3bf;
-    border-radius: 30px;
+#centeringBox {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
     padding: 10px;
 }
