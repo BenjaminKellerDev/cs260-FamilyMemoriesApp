@@ -11,9 +11,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 
-* {
-    border: dashed black;
-}
 
 h1,
 h1,
@@ -23,28 +20,8 @@ h4 {
     font-family: Calistoga;
 }
 
-#loginContainer {
+body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 90vh;
-    margin: 10vh;
-}
-
-.loginBox {
-    flex-grow: 4;
-}
-
-.artBox {
-    flex: 1 30 200px;
-}
-
-main {
-    display: flex;
-}
-
-.root {
     background-color: #fbf7f5;
     font-family: Georgia, "Times New Roman", Times, serif;
     box-sizing: border-box;
@@ -55,10 +32,19 @@ main {
     margin: 0;
 }
 
-header {
-    flex: 0 0 80px;
+main {
+    flex: 1;
 }
 
+#loginBox {
+    flex-grow: 4;
+}
+
+#artBox {
+    flex: 1 30 200px;
+}
+
+header,
 footer {
     min-height: 50px;
     display: flex;
