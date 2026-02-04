@@ -77,14 +77,19 @@ footer a {
     color: #212529
 }
 
-
 header {
-    background-color: rgb(150 150 150);
     padding: 10px;
 }
 
+header,
 header * {
     background-color: rgb(150 150 150);
+    color: #d5d5d5;
+}
+
+
+#usernameHeader,
+#usernameHeader * {
     color: #fbf7f5;
 }
 
