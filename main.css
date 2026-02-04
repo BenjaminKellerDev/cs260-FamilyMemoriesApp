@@ -84,6 +84,10 @@ header {
 header,
 header * {
     background-color: rgb(150 150 150);
+}
+
+.headerLink {
+    margin: 6px;
     color: #d5d5d5;
 }
 
@@ -95,4 +99,10 @@ header * {
 
 header a {
     text-decoration: none;
+}
+
+@media(max-width: 460px) {
+    #usernameText {
+        display: none;
+    }
 }
