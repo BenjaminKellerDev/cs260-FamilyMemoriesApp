@@ -1,0 +1,14 @@
+h1 {
+    padding: 15px;
+}
+
+section {
+    padding: 10px;
+    margin: 2vh;
+}
+
+.tag {
+    border: solid orange;
+    border-radius: 20px;
+    padding: 10px;
+}

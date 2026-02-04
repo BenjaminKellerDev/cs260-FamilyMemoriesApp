@@ -34,49 +34,23 @@ tags.html - Database data
 
 ## CSS
 
-This took a couple hours to get it how I wanted. It was important to make it responsive and Bootstrap helped with that. It looks great on all kinds of screen sizes.
+I used https://waapple.org/ as inspiration for the font choice and found a similar free font on google fonts.
+I was originally inspired by the colors of Josef Albers Homage to the Square [(the green one specify)](https://9artprints.com/cdn/shop/files/after-josef-albers-grove-homage-to-the-square-premium-giclee-print-mid-century-modern-art-print-in-green-white-available-framed-1x1-923422.jpg?v=1764295174&width=3000) but those colors may be too strong.
 
-Bootstrap seems a bit like magic. It styles things nicely, but is very opinionated. You either do, or you do not. There doesn't seem to be much in between.
-
-I did like the navbar it made it super easy to build a responsive header.
-
-```html
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand">
-            <img src="logo.svg" width="30" height="30" class="d-inline-block align-top" alt="" />
-            Calmer
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="play.html">Play</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Logout</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+Bootstrap was bothering me for a long time until I realized that the lower stylesheet takes precedence
+```
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/main.css" />
 ```
 
-I also used SVG to make the icon and logo for the app. This turned out to be a piece of cake.
+I also got so frustrated with css and other elements blocking others that I went back and removed most of my CSS and the really focused on flex container/flex child mentality and it finally worked.
 
-```html
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100" height="100" fill="#0066aa" rx="10" ry="10" />
-  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="72" font-family="Arial" fill="white">C</text>
-</svg>
+max-width gave me trouble too, and im not entirely sure why this fixed it, but it did
 ```
-I like these colors https://9artprints.com/cdn/shop/files/after-josef-albers-grove-homage-to-the-square-premium-giclee-print-mid-century-modern-art-print-in-green-white-available-framed-1x1-923422.jpg?v=1764295174&width=3000
+    margin-left: auto;
+    margin-right: auto;
+```
 
 ## React Part 1: Routing
 
