@@ -30,9 +30,19 @@ hr {
     animation-duration: 300ms;
     animation-delay: 4s;
     animation-fill-mode: forwards;
-
-
 }
+
+.form-control {
+    display: inline;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+}
+
 
 @keyframes popIn {
     to {
