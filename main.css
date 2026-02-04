@@ -11,7 +11,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 
-
+* {
+    border: dashed black;
+}
 
 h1,
 h1,
@@ -27,7 +29,7 @@ h4 {
     align-items: center;
     flex-direction: column;
     height: 90vh;
-    margin: 20px;
+    margin: 10vh;
 }
 
 .loginBox {
@@ -38,13 +40,18 @@ h4 {
     flex: 1 30 200px;
 }
 
-.main {
+main {
+    display: flex;
+}
+
+.root {
     background-color: #fbf7f5;
     font-family: Georgia, "Times New Roman", Times, serif;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    max-height: 100vh;
     margin: 0;
 }
 
@@ -53,14 +60,13 @@ header {
 }
 
 footer {
-    flex: 0 30px;
+    min-height: 50px;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
+footer p,
 footer a {
-    float: right;
-}
-
-footer p {
-    float: left;
+    margin: 1vh;
 }
