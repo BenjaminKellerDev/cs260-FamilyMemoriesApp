@@ -76,3 +76,13 @@ footer a {
 footer a {
     color: #212529
 }
+
+.headerLink {
+    color: black;
+}
+
+#usernameHeader {}
+
+header {
+    background-color: #212529;
+}
