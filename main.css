@@ -67,6 +67,10 @@ img {
     height: 300px;
 }
 
+input {
+    accent-color: orange;
+}
+
 header,
 footer {
     min-height: 50px;
