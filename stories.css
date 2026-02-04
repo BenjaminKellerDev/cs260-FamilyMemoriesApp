@@ -36,6 +36,16 @@ hr {
     display: inline;
 }
 
+.tag {
+    border: solid orange;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.tagContainer {
+    margin: 10px 0px 10px 5px;
+}
+
 .story {
     display: flex;
     flex-direction: column;
