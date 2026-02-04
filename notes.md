@@ -45,6 +45,7 @@ Bootstrap was bothering me for a long time until I realized that the lower style
 ```
 
 I also got so frustrated with css and other elements blocking others that I went back and removed most of my CSS and the really focused on flex container/flex child mentality and it finally worked.
+Also this website was a really nice visual https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 max-width gave me trouble too, and im not entirely sure why this fixed it, but it did
 ```
